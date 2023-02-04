@@ -50,11 +50,7 @@ class _HomeState extends State<Home> {
             Positioned(
               bottom: 0,
               child: Padding(
-                padding: const EdgeInsets.only(
-                  left: 20,
-                  bottom: 20,
-                  right: 20,
-                ),
+                padding: const EdgeInsets.all(8.0),
                 child: SizedBox(
                   width: MediaQuery.of(context).size.width,
                   height: MediaQuery.of(context).size.height * 0.2,
